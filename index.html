@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Prova do CFC 2020</title>
+<link rel="stylesheet" href="css/style.css">
+</head>
+
+<body onload="time()" style="background-color: #6495ED;">
+    <div align="center">
+        <div>
+            <h2 id="tempo"></h2>
+        </div>
+    </div>
+    <div align="center">
+        <div class="box" align="center">
+            <h1>Prova do CFC 2020</h1>
+            <h2>Início da Prova: 13:00</h2>
+            <h2>Término da Prova: 17:00</h2>
+            <br>
+            <div class="timer" id="timer">00:00:00</div>
+
+            <div class="row center" >
+                <div class="btplay">
+                    <img class="button" src="imagens/ic_play.png" width="100" onclick="contagem()">
+                </div>
+                <div class="btpause">
+                    <img class="button" src="imagens/ic_pause.png" width="100" onclick="pausaContagem()">
+                </div>
+                <div class="btrestart">
+                    <img class="button" src="imagens/ic_reset.png" width="100" onclick="reiniciaContagem()">
+                </div>
+            </div>
+
+            <div class="boxinput">
+                <br>
+                <form id="formulario">
+                     Hr:
+                     <input type="number" id="hora" min="0" max="23" value="0" size="8"/>
+                     Min:
+                     <input type="number" id="minuto" min="0" max="59" value="0" size="8"/>
+                     Seg:
+                     <input type="number" id="segundo" min="0" max="59" value="0" size="8"/><br><br>
+                     <input class="btn" type="submit" value="Enviar">
+                </form>
+                <br>
+            </div>
+
+        </div>
+    </div>
+</body>
+
+<script type="text/javascript" src="javascript/script.js"></script>
+<script type="text/javascript" src="javascript/scriptHora.js"></script>
+
+</html>

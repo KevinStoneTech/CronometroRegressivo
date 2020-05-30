@@ -1,0 +1,65 @@
+@charset "utf-8";
+
+h1 {
+    font-size: 50px;
+}
+
+.box{
+    width: 700px;
+    height: 500px;
+    background-color: #fff;
+    box-shadow: 7px 10px 5px #888;
+    margin: auto;
+    margin-top: 2%;
+}
+
+.boxinput{
+    width: 700px;
+    height: 150x;
+    background-color: #fff;
+    box-shadow: 7px 10px 5px #888;
+    margin-top: 10%;
+}
+
+.timer{
+    font-size: 3cm;
+}
+
+.btplay{
+    margin-right: 450px;
+    margin-top: 10px;
+}
+
+.btpause{
+    margin-top: -100px;
+    position: center;
+    
+}
+
+.btrestart{
+    margin-left: 450px;
+    margin-top: -105px;
+}
+
+.button {
+    color: #fff;
+    border: none;
+    background-color: #182;
+    border-radius: 15px;
+    box-shadow: 0 9px #999;
+  }
+
+.button:active {
+  background-color: #fff;
+  box-shadow: 0 5px #666;
+  transform: translateY(4px);
+}
+
+.btn {
+    color: #000;
+    background-color: #182;
+    border: none;
+    font-size: 30px;
+    border-radius: 15px;
+    box-shadow: 0 9px #888;
+}
